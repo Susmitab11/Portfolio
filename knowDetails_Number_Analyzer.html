@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html id="knowDetailhtml">
+<head>
+	<title>Know Details Page - Number Analyzer</title>
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+	<link rel="stylesheet" href="knowDetail.css">
+	<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+<body id="knowDetailPageBody">
+	<header>
+		<nav id="KnowDetailNavbar">
+				<div id="knowDetailLogo">SB</div>
+				<ul id="knowNavlinks">
+				<li><a href="index.html" class="knowNavItems">Home</a></li>
+				<li><a href="index.html" class="knowNavItems">Projects</a></li>
+				<li><a href="" class="knowNavItems">GitHub</a></li>
+				<li><a href="index.html#contactSection" class="knowNavItems">Contact</a></li>
+				</ul>
+			</nav>
+	</header>
+	<main>
+		<section id="knowDetailHero" class="KnowDetailsPageSection">
+			<div id="knowDetailHeroContent">
+				<h2>Number Analyzer</h2>
+				<p id="knowDetailHeroPara">Responsive Number Analyzer</p>
+				<span class="knowDetailTag">HTML</span>
+				<span class="knowDetailTag">CSS</span>
+				<span class="knowDetailTag">JavaScript</span>
+				<div id="knowDetailTwoButton">
+					<a href=" https://susmitab11.github.io/smart-number-analyzer/" class="knowDetailHeroBtn">Live Demo</a>
+					<a href="https://github.com/Susmitab11//smart-number-analyzer" class="knowDetailHeroBtn">
+					<i class="devicon-github-original"></i>
+					GitHub Repository
+					</a>
+				</div>
+			</div>
+			<div id="knowDetailProjectImg">
+				<img src="assets/New Folder/SS11.png" class="knowDetailPImg" alt="Number Analyzer Snipshot">
+				
+			</div>
+		</section>
+		<section>
+			<div id="knowDetailProjectOverview">
+				<div>
+					<h4><i class="fa-regular fa-calendar"></i>
+					Duration</h4>
+					<p>4 days</p>
+				</div>
+				<div>
+					<h4><i class="fa-solid fa-user"></i>
+					Role</h4>
+					<p>Frontend Developer</p>
+				</div>
+				<div>
+					<h4><i class="fa-solid fa-check"></i>
+					Status</h4>
+					<p>Completed</p>
+				</div>
+				<div>
+					<h4><i class="fa-solid fa-tablet"></i>
+					Responsive</h4>
+					<p>Yes</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="knowDetailProjectKey" >
+			<div class="detailKeyOverview">
+				<h4 class="knowDetailSectionHeading">Project Overview</h4>
+				<p>The Number Analysis Tool is a JavaScript-based web application that analyzes numbers within a user-defined range. 
+				Users enter a start number and an end number, and the program checks each number for divisibility by 3, 5, and 7. Based on the divisibility, it displays labels such as Fizz, Buzz, Seven, or their combinations. 
+				The application also provides a summary showing how many numbers are divisible by 3, 5, and 7 within the selected range.
+				</p>
+			</div>
+			<div class="detailKeyOverview">
+				<h4 class="knowDetailSectionHeading">Key Features</h4>
+					<ul>
+						<li>
+						<i class="fa-solid fa-circle-check"></i>
+						User-defined number range analysis</li>
+						<li>
+						<i class="fa-solid fa-circle-check"></i>
+						Divisibility checks for 3, 5, and 7</li>
+						<li>
+						<i class="fa-solid fa-circle-check"></i>
+						Displays Fizz, Buzz, Seven, and combined outputs</li>
+						<li>
+						<i class="fa-solid fa-circle-check"></i>
+						Summary count of divisible numbers</li>
+						<li>
+						<i class="fa-solid fa-circle-check"></i>
+						Dynamic result display using DOM manipulation</li>
+					</ul>
+			</div>
+		</section>
+		
+		<section id="KnowDetailTechProject">
+			<div id="detailsProjectScreenShot">			
+				<h4 class="knowDetailSectionHeading">Project ScreenShots</h4>
+				<div id="ProjectScreenShotsGallery">
+					<!-- <div id="screenShotImg1">
+						<img src="assets/New folder/SS11.png" class="eachScreenShots" alt="Screen Shot of website-img1">
+					</div> -->
+					<div>
+						<img src="assets/New folder/SS11.png" class="eachScreenShots" alt="Screen Shot of website -img 11">
+					</div>
+					<div>
+						<img src="assets/New folder/SS12.png" class="eachScreenShots" alt="Screen Shot of website -img 12">
+					</div>
+					<div>
+						<img src="assets/New folder/SS13.png" class="eachScreenShots" alt="Screen Shot of website -img 13">
+					</div>
+					<div>
+						<img src="assets/New folder/SS14.png" class="eachScreenShots" alt="Screen Shot of website -img 14">
+					</div> 
+					<!-- <div>
+						<img src="assets/New folder/SS6.png" class="eachScreenShots" alt="Screen Shot of website -img 6">
+					</div>
+					<div>
+						<img src="assets/New folder/SS7.png" class="eachScreenShots" alt="Screen Shot of website -img 7">
+					</div>  -->
+				</div>
+			</div>
+		</section>
+		<section id="knowDetailChallengeLearned">
+			<div class="challengeLearned">
+				<h4 class="knowDetailSectionHeading">Challenges & Solutions</h4>
+					<h5 class="challengeSolHeading">Challenge</h5>
+					<p>
+					Some numbers are divisible by multiple values (3, 5, and 7). 
+					If individual conditions were checked first, 
+					the program would return incorrect results and skip more specific combinations.
+					</p>
+					<p>Displaying the generated results and summary on the webpage while keeping 
+					the interface interactive was another challenge.
+					</p>
+					<h5 class="challengeSolHeading">Solution</h5>
+					<p>
+					The conditions were arranged from the most specific to the least specific:
+					Divisible by 3, 5, and 7
+					Divisible by 3 & 5
+					Divisible by 3 & 7
+					Divisible by 5 & 7
+					Divisible by 3
+					Divisible by 5
+					Divisible by 7
+					
+					<p>This ensured accurate and efficient output for every number.</p>
+					<p>Used DOM manipulation with document.getElementById() to access HTML elements, 
+					attached an onclick event to the Analyze button, processed the numbers using a while loop, 
+					and updated the webpage dynamically with the analysis results and summary.</p>
+					</p>
+			</div>
+			<div class="challengeLearned">
+				<h4 class="knowDetailSectionHeading">What I Learned</h4>
+				<ul>
+					<li>
+					<i class="fa-solid fa-circle-check"></i>
+					Implementing loops to process a range of numbers</li>
+					<li>
+					<i class="fa-solid fa-circle-check"></i>
+					Writing efficient conditional logic using if–else statements</li>
+					<li>
+					<i class="fa-solid fa-circle-check"></i>
+					Handling user interactions with event listeners</li>
+					<li>
+					<i class="fa-solid fa-circle-check"></i>
+					Updating webpage content dynamically using DOM manipulation</li>
+					<li>
+					<i class="fa-solid fa-circle-check"></i>
+					Structuring a webpage with HTML and styling it using CSS</li>
+				</ul>
+			</div>
+		</section>
+		<section id="knowDetailFutureImprovement">
+			<h4 class="knowDetailSectionHeading">Future Improvements</h4>
+				<div id="futureImprovement">
+					<div class="futureImprovement">
+						<p>Improve the UI with animations and responsive enhancements</p>
+					</div>
+					<div class="futureImprovement">
+						<p>Display results in a table for better readability</p>
+					</div>
+					<div class="futureImprovement">
+						<p>Add an option to export the results</p>
+					</div>
+					<div class="futureImprovement">
+						<p>Add input validation for invalid or empty values</p>
+					</div>
+					<!-- <div class="futureImprovement">
+						<p>Payment Gateway Integration</p>
+					</div> -->
+				</div>
+		</section>
+	</main>
+	<footer id="knowDetailFooter">
+		<div id="footerPara">
+			<p><i class="fa-solid fa-rocket"></i></p>
+			<p>This Project helped me strengthen my frontend development skills and understand 
+			the importance of user experience and responsive design.
+			</p>
+		</div>
+		<div id="footerButton">
+			<a href="index.html#Projects">
+			<i class="fa-solid fa-arrow-left"></i>
+				Back to Projects
+			</a>
+		</div>
+	</footer>
+</body>
+</html>

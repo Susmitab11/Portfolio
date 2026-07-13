@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+	<header>
+			<nav id="navbar">
+				<div id="logo">SB</div>
+				<ul id= "navlinks">
+				<li><a href="#hero" class="navitem">Home</a></li>
+				<li><a href="#aboutMe"class="navitem">About</a></li>
+				<li><a href="#projects" class="navitem">Projects</a></li>
+				<li><a href="#skills"class="navitem">Skills</a></li>
+				<li><a href="#contactSection"class="navitem">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="hero">
+				<div id="heroContent">
+					<h1>Susmita Berde</h1>
+					<p id="role">Frontend Developer</p>
+					<p id="heroCaption">Building responsive web interfaces with clean code, accessible design, and a focus on creating intuitive user experiences.</p>
+					<div id="twoHeroButton">
+						<a href="#projects" class="heroButton">View My Work</a>
+						<a href = "assets/Frontend%20Developer%20Fresher.pdf" target="_blank" class="heroButton">Download Resume
+						<i class="fa-solid fa-circle-arrow-down"></i>
+						</a>
+					</div>
+				</div>
+				<div id="imageProfile">
+				<img id="profileImage" src ="assets/ProfileImage.jpeg" alt = "My Profile Image">
+				</div>
+			</section>
+			<section id="aboutMe">
+				<h2 id="aboutMeHeading">About Me</h2>
+				<p>Get to know me</p>
+				<p>
+				Clean code, responsive design, and user-focused development form the foundation of my work. 
+				I build frontend applications using HTML, CSS, and JavaScript with an emphasis on accessibility,
+				maintainability, and consistent performance across devices. My professional background 
+				strengthened analytical thinking, precision, and documentation practices, which now influence the 
+				way I approach frontend development and solve technical challenges.
+				</p>
+			</section>
+			
+			<section id ="projects">
+				<h2 id="projectHeading">Projects</h2>
+				<!-- <div id="projectContent">
+					<p>Some of my recent work</p>
+					<a href="project.html">view all Projects
+					<i class="fa-solid fa-angle-right"></i>
+					</a>
+				</div> -->
+				<div id="numberOfProjects">
+					<div class="projectList">
+					<!-- Project 1--->
+						<img class="projectImg" src="assets/Travel_Website_UI.png">
+						<h3>Travel Website</h3>
+						<p class="projectDesc">A responsive travel website featuring multiple pages and mobile-first design.</p>
+						<p class="techUsed">Technology Used: HTML | CSS | Responsive Design</p>
+						<a href="knowDetails.html">
+						<button type="button" class="knowbtn">Know Details</button>
+						</a>
+					</div>
+					<div class="projectList">
+					<!-- Project 2--->
+						<img class="projectImg" src="assets/Number_Analyzer_Project.png" alt="number Analysis">
+						<h3>Number Analyzer Project</h3>
+						<p class="projectDesc">An interactive JavaScript application that analyzes user input and performs multiple number-based operations in real time.</p>
+						<p class="techUsed">Technology Used: HTML | CSS | JavaScript</p>
+						<a href="knowDetails_Number_Analyzer.html">
+						<button type="button" class="knowbtn">Know Details</button>
+						</a>
+					</div>
+					<div class="projectList">
+					<!-- Project 3--->
+						<img class="projectImg" src="assets/Cafe_Ordering_System.png" alt="coffee shop banner">
+						<h3>Cafe Ordering System</h3>
+						<p class="projectDesc">A dynamic café ordering application that calculates orders, manages menu selections, and provides an interactive user experience.</p>
+						<p class="techUsed">Technology Used: HTML | CSS | JavaScript</p>
+						<a href="knowDetails_Cafe_Ordering_System.html"> 
+						<button type="button" class="knowbtn">Know Details</button>
+						</a>
+					</div>
+				</div> 
+			</section>
+			
+			<section id= "skills">
+				<div id="skillHeadingPara">
+					<h2>Skills</h2>
+					<p>Technologies I work with</p>
+				</div>
+				<div>
+					<ul id="skillList">
+						<li class="eachSkill">
+							<img  class="skillImage" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" />
+							<p>HTML</p>
+						</li>
+						<li class="eachSkill">
+							<img  class="skillImage" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" />
+							<p>CSS</p>
+						</li>
+						<li class="eachSkill">	
+							<img class="skillImage" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+							<p>JavaScript</p>
+						</li>
+						<li class="eachSkill">
+							<img class="skillImage" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+							<p>Python</p>
+						</li>
+						<li class="eachSkill">
+							<img class="skillImage"src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
+							<p>SQL</p>
+						</li>
+						<li class="eachSkill">
+							<img class="skillImage" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+							<p>React</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<section id="educationSection">
+				<h2 id="educationHeading">Education & Certifications</h2>
+				<div id="educationCertification">
+					<div class="infoCard">
+						<h3>Education</h3>
+						<p>Bachelors in Computer Science</p>
+						<p>2019 - 2022</p>
+					</div>
+					<div class="infoCard">
+						<h3>Certification</h3>
+						<h4>Full Stack Development with Python</h4>
+						<p>Technologies Learned: 
+						html, CSS, JavaScript, Python, SQL, Django, React</p>
+						
+						<h4>Google IT Support Certification</h4>
+						<a href="https://www.linkedin.com/in/susmitaberde02" target="_blank" id="certificatesBtn">View All Certifications</a>
+					</div>
+					<div class="infoCard">
+						<h3>My Learning Journey</h3>
+						<p>
+						Every project I build is an opportunity to strengthen both technical and problem-solving skills. 
+						From translating layouts into responsive webpages to debugging complex CSS issues and implementing 
+						interactive functionality with JavaScript, I approach each challenge with attention to detail and 
+						a focus on clean, maintainable code. My objective is not simply to complete projects, but to develop 
+						the practical skills required to build reliable, production-ready web applications.
+
+						</p>
+					</div>
+				</div>
+			</section>
+			
+			<section id="experienceContact">
+				<div id="profeExperiance">
+					<h2 class="experContact">Professional Experience</h2>
+						<div class="experianceRole">
+							<p>Process Associate</p>
+							<p>Ntrust Software Infotech</p>
+							<p>Feb 2023 - Oct 2025</p>
+						</div>
+						<div class="experianceRole">
+							<p>Intern</p>
+							<p>Ntrust Software Infotech</p>
+							<p>Oct 2022 - feb 2023</p>
+						</div>
+						<p>
+						Promoted from Intern to Process Associate within the Lease Abstraction team, where I extracted and validated financial and legal lease information with a strong focus on accuracy and quality. 
+						Collaborated with team members to improve workflow efficiency while developing analytical, documentation, and problem-solving skills.
+						</p>
+					</div>
+				</div>
+				
+				<div id="contactSection">
+					<h2 class="experContact">Contact</h2>
+					<ul>
+						<li>
+							<a href="https://github.com/Susmitab11" class="contactIcon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgb(30, 48, 80)" d="M280.5 426.5C214.5 418.5 168 371 168 309.5C168 284.5 177 257.5 192 239.5C185.5 223 186.5 188 194 173.5C214 171 241 181.5 257 196C276 190 296 187 320.5 187C345 187 365 190 383 195.5C398.5 181.5 426 171 446 173.5C453 187 454 222 447.5 239C463.5 258 472 283.5 472 309.5C472 371 425.5 417.5 358.5 426C375.5 437 387 461 387 488.5L387 540.5C387 555.5 399.5 564 414.5 558C505 523.5 576 433 576 321C576 179.5 461 64 319.5 64C178 64 64 179.5 64 321C64 432 134.5 524 229.5 558.5C243 563.5 256 554.5 256 541L256 501C249 504 240 506 232 506C199 506 179.5 488 165.5 454.5C160 441 154 433 142.5 431.5C136.5 431 134.5 428.5 134.5 425.5C134.5 419.5 144.5 415 154.5 415C169 415 181.5 424 194.5 442.5C204.5 457 215 463.5 227.5 463.5C240 463.5 248 459 259.5 447.5C268 439 274.5 431.5 280.5 426.5z"/></svg>
+							</a>
+						</li>
+						<li>
+						<a href="https://www.linkedin.com/in/susmitaberde02" class="contactIcon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgb(62, 77, 163)" d="M512 96L127.9 96C110.3 96 96 110.5 96 128.3L96 511.7C96 529.5 110.3 544 127.9 544L512 544C529.6 544 544 529.5 544 511.7L544 128.3C544 110.5 529.6 96 512 96zM231.4 480L165 480L165 266.2L231.5 266.2L231.5 480L231.4 480zM198.2 160C219.5 160 236.7 177.2 236.7 198.5C236.7 219.8 219.5 237 198.2 237C176.9 237 159.7 219.8 159.7 198.5C159.7 177.2 176.9 160 198.2 160zM480.3 480L413.9 480L413.9 376C413.9 351.2 413.4 319.3 379.4 319.3C344.8 319.3 339.5 346.3 339.5 374.2L339.5 480L273.1 480L273.1 266.2L336.8 266.2L336.8 295.4L337.7 295.4C346.6 278.6 368.3 260.9 400.6 260.9C467.8 260.9 480.3 305.2 480.3 362.8L480.3 480z"/></svg>
+						 </a>
+						</li>
+						<li>
+							<a href="mailto:02susmitaberde@gmail.com" class="contactIcon">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgb(224, 28, 28)" d="M112 128C85.5 128 64 149.5 64 176C64 191.1 71.1 205.3 83.2 214.4L291.2 370.4C308.3 383.2 331.7 383.2 348.8 370.4L556.8 214.4C568.9 205.3 576 191.1 576 176C576 149.5 554.5 128 528 128L112 128zM64 260L64 448C64 483.3 92.7 512 128 512L512 512C547.3 512 576 483.3 576 448L576 260L377.6 408.8C343.5 434.4 296.5 434.4 262.4 408.8L64 260z"/></svg>
+							</a>
+						</li>
+						<li>
+							<a href="https://wa.me/919082234848?text=Hello%20Susmita,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+							target="_blank" class="contactIcon">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><path fill="rgb(83, 219, 58)" d="M188.1 318.6C188.1 343.5 195.1 367.8 208.3 388.7L211.4 393.7L198.1 442.3L248 429.2L252.8 432.1C273 444.1 296.2 450.5 319.9 450.5L320 450.5C392.6 450.5 453.3 391.4 453.3 318.7C453.3 283.5 438.1 250.4 413.2 225.5C388.2 200.5 355.2 186.8 320 186.8C247.3 186.8 188.2 245.9 188.1 318.6zM370.8 394C358.2 395.9 348.4 394.9 323.3 384.1C286.5 368.2 261.5 332.6 256.4 325.4C256 324.8 255.7 324.5 255.6 324.3C253.6 321.7 239.4 302.8 239.4 283.3C239.4 264.9 248.4 255.4 252.6 251C252.9 250.7 253.1 250.5 253.3 250.2C256.9 246.2 261.2 245.2 263.9 245.2C266.5 245.2 269.2 245.2 271.5 245.3L272.3 245.3C274.6 245.3 277.5 245.3 280.4 252.1C281.6 255 283.4 259.4 285.3 263.9C288.6 271.9 292 280.2 292.6 281.5C293.6 283.5 294.3 285.8 292.9 288.4C289.5 295.2 286 298.8 283.6 301.4C280.5 304.6 279.1 306.1 281.3 310C296.6 336.3 311.9 345.4 335.2 357.1C339.2 359.1 341.5 358.8 343.8 356.1C346.1 353.5 353.7 344.5 356.3 340.6C358.9 336.6 361.6 337.3 365.2 338.6C368.8 339.9 388.3 349.5 392.3 351.5C393.1 351.9 393.8 352.2 394.4 352.5C397.2 353.9 399.1 354.8 399.9 356.1C400.8 358 400.8 366 397.5 375.2C394.2 384.5 378.4 392.9 370.8 394zM544 160C544 124.7 515.3 96 480 96L160 96C124.7 96 96 124.7 96 160L96 480C96 515.3 124.7 544 160 544L480 544C515.3 544 544 515.3 544 480L544 160zM244.1 457.9L160 480L182.5 397.8C168.6 373.8 161.3 346.5 161.3 318.5C161.4 231.1 232.5 160 319.9 160C362.3 160 402.1 176.5 432.1 206.5C462 236.5 480 276.3 480 318.7C480 406.1 407.3 477.2 319.9 477.2C293.3 477.2 267.2 470.5 244.1 457.9z"/></svg>
+							</a>
+						</li>
+					</ul>
+					<p><i class="fa-solid fa-location-dot"></i> Navi Mumbai, Maharashtra</p>
+					
+					<p><i class="fa-solid fa-phone"></i>
+					+91 9082234848</p>
+				</div>
+			</section>
+		</main>
+		<footer id="footerSection">
+			<p>&copy; 2026 Susmita Berde. All rights reserved.</p>
+		</footer>
+</body>
+</html>
